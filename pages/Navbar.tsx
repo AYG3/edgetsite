@@ -20,7 +20,7 @@ const Navbar = () => {
           <button className='flex  items-center mr-4'><AiOutlineShoppingCart className='mr-1'/>$0.00</button>
         </span>
       </header>
-      <nav className='bg-white flex items-center justify-between p-4'>
+      <nav className='bg-white flex items-center justify-between p-2'>
         <span>
           <Image src={logo} alt={'logo'} />
         </span>
