@@ -31,7 +31,6 @@ const Seventh = () => {
         <p className='text-center text-gray-500 m-4'>Already have an account? <a className='text-gray-900' href="/Sixth">Login</a></p>
         </div>
       </form>
-
       </div>
     </div>    
     <Footer />
