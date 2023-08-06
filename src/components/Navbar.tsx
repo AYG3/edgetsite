@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <div>
       <header className='bg-[#f4834a] justify-between items-center flex'>
-        <span>Find the best spot, restaurant, hotel, fitness center, shop etc.</span>
-        <span className='flex justify-between'>
+        <span className='p-1'>Find the best spot, restaurant, hotel, fitness center, shop etc.</span>
+        <span className='flex justify-between p-1'>
           <button className='uppercase flex items-center mr-4'><BiUser />Sign In</button>
           <button className='flex items-center items-center mr-4'>English<RiArrowDropDownFill /></button>
           <button className='flex items-center items-center mr-4'>USD <RiArrowDropDownFill /></button>
