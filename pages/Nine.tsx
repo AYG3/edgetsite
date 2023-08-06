@@ -19,7 +19,7 @@ const Nine = () => {
         <p className='text-2xl font-bold text-center'>Password Reset</p>
         <p className='text-center text-sm'>Get your Password Back</p>
         </div>
-        <form action="POST" className='p-6'>
+        <form action="POST" className='p-6 wee'>
           <div className='grid'>
           <p className='text-gray-600 text-sm'>We will send a verification code to your mail to reset your password.</p>
           <input type="email" placeholder='Email Address*' required className='border w-full mb-2 mt-2 p-2' />
