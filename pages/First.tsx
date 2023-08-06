@@ -1,4 +1,5 @@
-import Navbar from '@/components/Navbar'
+import Navbar from './Navbar'
+import './style.css'
 import React from 'react'
 
 const First = () => {
