@@ -7,7 +7,8 @@ const Tenth = () => {
   return (
     <>
       <Navbar />
-      <div className='bg-gray-100 mt-16 items-center justify-center grid h-60 m-4'>
+
+      <div className='bg-gray-100 items-center justify-center grid h-60'>
         <span className='font-bold text-4xl text-center'>404 Error</span>
         <span className='text-2xl'>
           <a href="#">Home </a>{'\u00BB'}<span> 404 Error</span>
