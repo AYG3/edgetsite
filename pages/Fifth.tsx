@@ -1,6 +1,18 @@
 import React from 'react'
 import './style.css'
 import { BsPersonCircle } from 'react-icons/bs'
+import Image from 'next/image'
+import IMG1 from './assets/john-doe.jpg'
+
+
+const data = [
+  {
+    img:{IMG1},
+    name : "Tony Stark",
+    message: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, magni, deleniti culpa officiis accusantium id ad excepturi neque ab autem rerum amet aut ratione quas, hic dolor illum eos commodi."
+  }
+]
+
 
 const Fifth = () => {
   return (
@@ -55,6 +67,32 @@ const Fifth = () => {
 
         {/* TESTIMONIALS */}
 
+        <div className='flex flex-col items-center mt-4 border border-gray-400 mx-4 rounded-tl-xl'>
+          {/* {
+            data.map(({}) =>{
+              return( */}
+                <div className=''>
+                  <Image src={IMG1} alt="" className='rounded-tl-xl object-center object-cover h-80' />
+                </div>
+                <div className='flex flex-col items-start p-4'>
+                  <p className='font-bold text-lg'> Tony Stark</p>
+                  <small className='text-gray-400'>USA</small>
+                  <p className='text-gray-400 text-lg'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis delectus veniam reprehenderit rem atque odit inventore a, temporibus maxime officia fuga quae quia animi laborum?</p>
+                </div>
+              {/* )
+            })
+            
+          } */}
+        </div>
+
+        <div className='flex flex-col items-center mt-8 p-4'>
+          <div className=' flex justify-center relative w-36'>
+          <div className='absolute left-0 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
+            <p className='text-orange-500 font-bold '> OUR ALL</p>
+            <div className='absolute right-0 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
+          </div>
+          <p className='font-bold text-3xl'>Provided Services</p>
+        </div>
 
       </div>
 
