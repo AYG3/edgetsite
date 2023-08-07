@@ -6,6 +6,7 @@ import {TbDirectionSign} from 'react-icons/tb';
 import MACAU from './assets/macau-city.jpg';
 import { AiTwotoneStar } from 'react-icons/ai';
 import Footer from './Footer';
+import Image from 'next/image';
 
 
 
@@ -125,68 +126,102 @@ const Second = () => {
 
             <div className='flex flex-col space-y-8 lg:grid lg:grid-cols-2 pt-12 lg:space-y-0 lg:gap-8 ' >
               {/* CARD */}
-              <div className='flex flex-col items-center sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols sm:bg-green-500 rounded-xl lg:bg-red-500'>
-                <div className='bg-orange-500 h-72 w-11/12 rounded-sm'>
+              <div className='flex flex-col w-11/12 items-center border sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols  rounded-xl'>
+                <div className='h-full  rounded-t-sm sm:rounded-l-md'>
+                  <Image src={MACAU} alt="" className='rounded-t-md h-full object-cover object-center sm:rounded-l-md' />
                 </div>
-                  <div className=''>
+                <div>
+                  <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
                     <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
+                  <hr className='border'/>
+                  <p className='font-semibold p-4 flex justify-between w-full text-orange-500 cursor-pointer'>Book Now <span className=' text-black hover:text-orange-500 duration-100'>Tour Details</span></p>
+                </div>
               </div>
               {/* CARD */}
-
-              <div className='flex flex-col items-center sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols sm:bg-green-500 rounded-xl'>
-                <div className='bg-orange-500 h-72 w-11/12 rounded-sm'>
+              <div className='flex flex-col w-11/12 items-center border sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols  rounded-xl'>
+                <div className='h-full  rounded-t-sm sm:rounded-l-md'>
+                  <Image src={MACAU} alt="" className='rounded-t-md h-full object-cover object-center sm:rounded-l-md' />
                 </div>
-                  <div className=''>
+                <div>
+                  <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
                     <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
-              </div>
-              <div className='flex flex-col items-center sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols sm:bg-green-500 rounded-xl'>
-                <div className='bg-orange-500 h-72 w-11/12 rounded-sm'>
+                  <hr className='border'/>
+                  <p className='font-semibold p-4 flex justify-between w-full text-orange-500 cursor-pointer'>Book Now <span className=' text-black hover:text-orange-500 duration-100'>Tour Details</span></p>
                 </div>
-                  <div className=''>
+              </div>
+              {/* CARD */}
+              <div className='flex flex-col w-11/12 items-center border sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols  rounded-xl'>
+                <div className='h-full  rounded-t-sm sm:rounded-l-md'>
+                  <Image src={MACAU} alt="" className='rounded-t-md h-full object-cover object-center sm:rounded-l-md' />
+                </div>
+                <div>
+                  <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
                     <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
-              </div>
-              <div className='flex flex-col items-center sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols sm:bg-green-500 rounded-xl'>
-                <div className='bg-orange-500 h-72 w-11/12 rounded-sm'>
+                  <hr className='border'/>
+                  <p className='font-semibold p-4 flex justify-between w-full text-orange-500 cursor-pointer'>Book Now <span className=' text-black hover:text-orange-500 duration-100'>Tour Details</span></p>
                 </div>
-                  <div className=''>
+              </div>
+              {/* CARD */}
+              <div className='flex flex-col w-11/12 items-center border sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols  rounded-xl'>
+                <div className='h-full  rounded-t-sm sm:rounded-l-md'>
+                  <Image src={MACAU} alt="" className='rounded-t-md h-full object-cover object-center sm:rounded-l-md' />
+                </div>
+                <div>
+                  <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
                     <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
-              </div>
-              <div className='flex flex-col items-center sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols sm:bg-green-500 rounded-xl'>
-                <div className='bg-orange-500 h-72 w-11/12 rounded-sm'>
+                  <hr className='border'/>
+                  <p className='font-semibold p-4 flex justify-between w-full text-orange-500 cursor-pointer'>Book Now <span className=' text-black hover:text-orange-500 duration-100'>Tour Details</span></p>
                 </div>
-                  <div className=''>
+              </div>
+              {/* CARD */}
+              <div className='flex flex-col w-11/12 items-center border sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols  rounded-xl'>
+                <div className='h-full  rounded-t-sm sm:rounded-l-md'>
+                  <Image src={MACAU} alt="" className='rounded-t-md h-full object-cover object-center sm:rounded-l-md' />
+                </div>
+                <div>
+                  <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
                     <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
-              </div>
-              <div className='flex flex-col items-center sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols sm:bg-green-500 rounded-xl'>
-                <div className='bg-orange-500 h-72 w-11/12 rounded-sm'>
+                  <hr className='border'/>
+                  <p className='font-semibold p-4 flex justify-between w-full text-orange-500 cursor-pointer'>Book Now <span className=' text-black hover:text-orange-500 duration-100'>Tour Details</span></p>
                 </div>
-                  <div className=''>
+              </div>
+              {/* CARD */}
+              <div className='flex flex-col w-11/12 items-center border sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols  rounded-xl'>
+                <div className='h-full  rounded-t-sm sm:rounded-l-md'>
+                  <Image src={MACAU} alt="" className='rounded-t-md h-full object-cover object-center sm:rounded-l-md' />
+                </div>
+                <div>
+                  <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
                     <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
+                  <hr className='border'/>
+                  <p className='font-semibold p-4 flex justify-between w-full text-orange-500 cursor-pointer'>Book Now <span className=' text-black hover:text-orange-500 duration-100'>Tour Details</span></p>
+                </div>
               </div>
+             
             </div>
 
           
