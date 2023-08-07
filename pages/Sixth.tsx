@@ -37,6 +37,7 @@ const Sixth = () => {
   </div>    
   <Footer />
     </div>
+    // bro i wanted to kill myself last night for this thing 
   )
 }
 
