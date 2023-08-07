@@ -1,10 +1,7 @@
 import React from 'react'
 import './style.css'
-<<<<<<< HEAD
-=======
 import Navbar from './Navbar'
 import Footer from './Footer'
->>>>>>> 88df78c7470d62a8a6b55b073ae0ccb1b10f4f70
 
 const Seventh = () => {
   return (
