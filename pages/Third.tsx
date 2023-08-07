@@ -1,11 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import Navbar from './Navbar';
 import IMG from './assets/single-tour-1.jpg';
+import IMG1 from './assets/avatar-1.jpg';
 import Image from 'next/image';
-import { BsFillArrowRightSquareFill } from 'react-icons/bs';
+import { BsArrowDownShort, BsFillArrowRightSquareFill } from 'react-icons/bs';
+import { AiFillStar } from 'react-icons/ai';
 
 const Third = () => {
+
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const [isDropdownOpen1, setIsDropdownOpen1] = useState(false);
+
+  const [isDropdownOpen2, setIsDropdownOpen2] = useState(false);
+  
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  }
+
+  const toggleDropdown1 = () =>{
+    setIsDropdownOpen1(!isDropdownOpen1);
+  }
+
+  const toggleDropdown2 = () =>{
+    setIsDropdownOpen2(!isDropdownOpen2);
+  }
+
   return (
     <div className=''>
       <Navbar />
@@ -43,18 +64,52 @@ const Third = () => {
           <p className='flex flex-col text-lg ml-2'><span className='font-bold text-xl pb-4'>Day 04</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, alias quo perspiciatis at, laborum laboriosam! </p>
         </div>
 
-        <div className="relative inline-block group">
-  <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded focus:outline-none">
-    What languages do you offer tours in
-  </button>
-  <div className="absolute hidden bg-white border border-gray-300 p-4 mt-2 rounded shadow-md w-64 group-hover:block">
-    <p className="text-gray-700">
-      We offer tours in various languages to provide you with the best experience. Our tours are available in English, Spanish, French, German, and Italian.
-    </p>
-  </div>
-</div>
+      <div className="relative inline-block group w-full mt-4">
+        <button onClick={toggleDropdown} className="flex justify-center w-full bg-blue-900 hover:bg-blue-600 text-white font-semibold py-4 px-2 focus:outline-none">
+          What languages do you offer tours in <BsArrowDownShort className="text-3xl" />
+        </button>
+        <div className={` w-full  bg-white border border-gray-300 p-4 rounded shadow-md ${isDropdownOpen ? 'block' : 'hidden'}`}>
+          <p className="text-gray-700">
+            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. Conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+      <div className="relative inline-block group w-full mt-4">
+        <button onClick={toggleDropdown1} className="flex justify-center w-full bg-blue-900 hover:bg-blue-600 text-white font-semibold py-4 px-2 focus:outline-none">
+          Are there any extra fees I have to pay <BsArrowDownShort className="text-3xl" />
+        </button>
+        <div className={` w-full  bg-white border border-gray-300 p-4 rounded shadow-md ${isDropdownOpen1 ? 'block' : 'hidden'}`}>
+          <p className="text-gray-700">
+            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. Conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+      <div className="relative inline-block group w-full mt-4">
+        <button onClick={toggleDropdown2} className=" flex justify-center w-full bg-blue-900 hover:bg-blue-600 text-white font-semibold py-4 px-2 focus:outline-none">
+          How much does it cost to do a private tour? <BsArrowDownShort className="text-3xl" />
+        </button>
+        <div className={` w-full  bg-white border border-gray-300 p-4 rounded shadow-md ${isDropdownOpen2 ? 'block' : 'hidden'}`}>
+          <p className="text-gray-700">
+            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. Conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
 
 
+      </div>
+
+      <div className='mt-4 mx-4 p-4 border border-gray-400 rounded-md'>
+        <h1 className='font-bold text-2xl'> 2 Reviews</h1>
+        <div className='w-full border mt-3'></div>
+        
+        <div className='grid grid-flow-col grid-cols-2 py-4'>
+          <div className='w-max'>
+            <Image src={IMG1}  alt='' className='w-20 rounded-tl-2xl rounded-br-2xl ' />
+          </div>
+          <div className='flex justify-start'>
+            <p className='flex' >Anthony J. Ruiz <span className='flex text-orange-500'><AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /></span></p>
+          </div>
+        </div> 
       </div>
 
 
@@ -62,4 +117,4 @@ const Third = () => {
   )
 }
 
-export default Third
+export default Third;
