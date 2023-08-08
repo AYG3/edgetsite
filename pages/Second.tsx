@@ -34,18 +34,13 @@ const Second = () => {
         <div className="mx-2 w-full ">
           {/* {FILTER DIV} */}
           <div className='grid grid-rows-1  items-center lg:flex lg:mx-8 xl:mx-28'>
-
             <div className="relative flex items-center border border-gray-300 w-full">
               <input type="text" placeholder="Keywords" className="py-2 pl-4 pr-56 " />
               <div className="relative right-0 w-full">
                 <GoSearch className="h-6 w-6 text-gray-500 absolute right-2 top-1/2 transform -translate-y-1/2" />
               </div>
             </div>
-
             {/*DESTINATION DROPDOWN */}
-
-
-
             <div className="dropdown inline-block relative w-full border border-gray-300 rounded">
               <button className=" font-semibold py-2 px-4 rounded inline-flex items-center w-full">
                 <span className="mr-1 w-full">Destinations</span>
@@ -82,12 +77,10 @@ const Second = () => {
                 <li className=""><a className="rounded-b py-2 px-4   block whitespace-no-wrap" href="#">5-10</a></li>
               </ul>
             </div>
-
             <div className='relative flex justify-center border bg-orange-500 border-gray-300 py-2 rounded px-12'>
               <p className=''> Search</p>
               <TbDirectionSign className="relative -bottom-1 left-2" />
             </div>
-
           </div>
         </div>
 
