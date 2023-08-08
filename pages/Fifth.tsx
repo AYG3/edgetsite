@@ -42,62 +42,76 @@ const Fifth = () => {
 
 
 
-        <div className='flex flex-col items-center mt-8 p-4'>
-          <div className='flex relative w-32'>
-            <p className='font-bold text-orange-500'>ABOUT US </p>
-            <div className='absolute right-1 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
-          </div>
-          <p className='font-bold text-3xl'>We Provide Best Deals</p>
-          <p className='text-gray-500 p-4'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-        </div>
 
-        <div className='flex mt-4 p-4 justify-between bg-white shadow mx-4 rounded-xl'>
-          <div className='flex items-center p-4'>
-            <BsPersonCircle className="text-5xl text-orange-500 " />
-          </div>
-          <div className=''>
-            <p className='font-bold text-2xl'>Quality Services Ensure</p>
-            <p className='text-gray-400'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
-          </div>
-        </div>
-        <div className='flex mt-4 p-4 justify-between bg-white shadow mx-4 rounded-xl'>
-          <div className='flex items-center p-4 '>
-            <BsPersonCircle className="text-5xl text-orange-500 " />
-          </div>
-          <div className=''>
-            <p className='font-bold text-2xl'>Customer Care</p>
-            <p className='text-gray-400'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
-          </div>
-        </div>
-        <div className='flex mt-4 p-4 justify-between bg-white shadow mx-4 rounded-xl'>
-          <div className='flex items-center p-4'>
-            <BsPersonCircle className="text-5xl text-orange-500 " />
-          </div>
-          <div className=''>
-            <p className='font-bold text-2xl'>Experience Guides</p>
-            <p className='text-gray-400'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
-          </div>
-        </div>
+        {/* SERVICES AND TESTIMONIALS */}
+        <div className='grid lg:grid-flow-col lg:grid-cols-2 sm:mx-12 xl:mx-32'>
+          <div>
+            <div className='flex flex-col items-center mt-8 p-4 md:items-start'>
+              <div className='flex relative w-32'>
+                <p className='font-bold text-orange-500'>ABOUT US </p>
+                <div className='absolute right-1 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
+              </div>
+              <p className='font-bold text-4xl'>We Provide Best Deals</p>
+              <p className='text-gray-500 p-4 md:pl-0'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+            </div>
 
-        {/* TESTIMONIALS */}
 
-        <div className='flex flex-col items-center mt-4 w-max border border-gray-400 mx-4 rounded-tl-xl'>
-          {/* {
-            data.map(({}) =>{
-              return( */}
-                <div className=''>
-                  <Image src={IMG1} alt="" className='rounded-tl-xl object-center object-cover h-80' />
-                </div>
-                <div className='flex flex-col items-start p-4'>
-                  <p className='font-bold text-lg'> Tony Stark</p>
-                  <small className='text-gray-400'>USA</small>
-                  <p className='text-gray-400 text-lg'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis delectus veniam reprehenderit rem atque odit inventore a, temporibus maxime officia fuga quae quia animi laborum?</p>
-                </div>
-              {/* )
-            })
-            
-          } */}
+          {/* SERVICES */}
+            <div className='flex mt-4 p-4 justify-between bg-white shadow-sm mx-4 rounded-xl  '>
+              <div className='flex items-center p-4'>
+                <BsPersonCircle className="text-5xl text-orange-500 " />
+              </div>
+              <div className=''>
+                <p className='font-bold text-2xl'>Quality Services Ensure</p>
+                <p className='text-gray-400'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+              </div>
+            </div>
+            <div className='flex mt-4 p-4 justify-between bg-white shadow-sm mx-4 rounded-xl '>
+              <div className='flex items-center p-4 '>
+                <BsPersonCircle className="text-5xl text-orange-500 " />
+              </div>
+              <div className=''>
+                <p className='font-bold text-2xl'>Customer Care</p>
+                <p className='text-gray-400'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+              </div>
+            </div>
+            <div className='flex mt-4 p-4 justify-between bg-white shadow-sm mx-4 rounded-xl '>
+              <div className='flex items-center p-4'>
+                <BsPersonCircle className="text-5xl text-orange-500 " />
+              </div>
+              <div className=''>
+                <p className='font-bold text-2xl'>Experience Guides</p>
+                <p className='text-gray-400'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+              </div>
+            </div>
+          </div>
+
+
+  
+          {/* TESTIMONIALS */}
+
+          <div className='flex flex-col items-center mt-4 w-full border border-gray-400 rounded-tl-3xl rounded-br-3xl'>
+            {/* {
+              data.map(({}) =>{
+                return( */}
+                  <div className=''>
+                    <Image src={IMG1} alt="" className='rounded-tl-xl object-center object-cover h-80' />
+                  </div>
+                  <div className='flex flex-col items-start p-4'>
+                    <p className='font-bold text-lg'> Tony Stark</p>
+                    <small className='text-gray-400'>USA</small>
+                    <p className='text-gray-400 text-lg'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis delectus veniam reprehenderit rem atque odit inventore a, temporibus maxime officia fuga quae quia animi laborum?</p>
+                  </div>
+                {/* )
+              })
+              
+            } */}
+          </div>
         </div>
+        
+        
+
+        
         
 
 
@@ -271,12 +285,12 @@ const Fifth = () => {
 
         {/* NEWSLETTER */}
         <div className='mt-4'>
-          <div className='flex p-4 items-center justify-center relative sm:mx-12 md:mx-4 md:justify-normal'>
-            <Image src={IMGN} alt="newsletter" className='w-full rounded-2xl h-96' />
+          <div className='flex p-4 items-center justify-center relative sm:mx-12 md:mx-4 md:justify-normal xl:mx-12'>
+            <Image src={IMGN} alt="newsletter" className='w-full rounded-2xl h-96 lg:h-[32rem] object-cover object-center' />
             {/* <div className='bg-yellow-500'>
 
             </div> */}
-            <div className='absolute flex flex-col items-center p-4 w-auto mx-8 bg-white sm:bg-green-500  md:bg-red-600 sm:w-[30rem] md:self-end'>
+            <div className='absolute flex flex-col items-center p-4 w-auto mx-8 bg-white sm:w-[30rem] md:right-5 '>
               <p className='text-orange-500 ' >Get Subscribe</p>
               <p className='font-bold text-3xl mt-2'>Our Newsletter</p>
               <p className='text-gray-500 mt-4 text-md'>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
