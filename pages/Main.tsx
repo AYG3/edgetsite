@@ -9,12 +9,14 @@ const Main = () => {
     <div className="relative">
       <Image src={bgg} alt='background-img' />
       <div className="absolute top-0 left-0 w-full h-full flex flex-col p-4 justify-center text-white">
-        <p className='font-semibold text-4xl'>Make Tour & Explore</p>
-        <p className='font-bold text-4xl'>Incredible Destinations</p>
-        <div className=''>
+        <div className='pb-4 p-8'>
+        <p className='font-semibold text-4xl mb-1'>Make Tour & Explore</p>
+        <p className='font-bold text-4xl mt-1'>Incredible Destinations</p>
+        </div>
+        <div className='w-3/4 mt-4'>
           <div className='rounded-full border-4 border-blue-800 grid grid-rows-1  items-center lg:flex lg:mx-8 xl:mx-28'>
             <div className="relative flex items-center w-full border-r">
-              <input type="text" placeholder="Keywords" className="py-2 pl-4 pr-56 rounded-l-full" />
+              <input type="text" placeholder="Keywords" className="py-2 pl-2 pr-16 rounded-l-full" />
               <div className="relative right-0 w-full">
                 <GoSearch className="h-6 w-6 text-gray-500 absolute right-2 top-1/2 transform -translate-y-1/2" />
               </div>
