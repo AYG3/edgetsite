@@ -3,6 +3,8 @@ import './style.css'
 import { BsPersonCircle } from 'react-icons/bs'
 import Image from 'next/image'
 import IMG1 from './assets/john-doe.jpg'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 
 const data = [
@@ -17,6 +19,7 @@ const data = [
 const Fifth = () => {
   return (
     <div>
+      <Navbar />
       <header className='flex flex-col items-center bg-gray-100 py-11'>
         <h1 className=' font-extrabold text-3xl pt-16 '> About Us </h1>
         <p className='pt-4'> Home {'>>'} About Us</p>
@@ -96,7 +99,7 @@ const Fifth = () => {
 
       </div>
 
-
+        <Footer />
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import First from '@/components/First'
+import First from '../../pages/First';
 import './globals.css';
 
 export default function Home() {
