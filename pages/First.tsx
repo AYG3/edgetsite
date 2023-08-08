@@ -5,6 +5,7 @@ import './style.css'
 import React from 'react'
 import Main from './Main'
 import Dum from './Dum'
+import Tours from './Tours'
 
 const First = () => {
   return (
@@ -13,6 +14,7 @@ const First = () => {
       <Main />
       <Dum />
       <Footer />
+      <Tours />
     </div>
   )
 }

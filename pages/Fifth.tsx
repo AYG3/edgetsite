@@ -281,6 +281,7 @@ const Fifth = () => {
               </div>              
             </div>
           </div>
+        </div>
 
 
         {/* NEWSLETTER */}
@@ -300,7 +301,6 @@ const Fifth = () => {
           </div>
           
         </div>
-      </div>
         <Footer />
     </div>
   )

@@ -126,7 +126,12 @@ const Second = () => {
                 <div>
                   <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
-                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
+                    <div className='flex w-full justify-between p-4'>
+                      10 days 
+                      <div className='flex relative h-8 border'>
+                        4.5 <AiTwotoneStar className="aboslute bottom-0 text-orange-500"/> (80)
+                      </div>
+                    </div>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
@@ -142,7 +147,7 @@ const Second = () => {
                 <div>
                   <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
-                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
+                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0 text-orange-500"/> (80)</span></p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
@@ -158,7 +163,7 @@ const Second = () => {
                 <div>
                   <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
-                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
+                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0 text-orange-500"/> (80)</span></p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
@@ -174,7 +179,7 @@ const Second = () => {
                 <div>
                   <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
-                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
+                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0 text-orange-500"/> (80)</span></p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
@@ -190,7 +195,7 @@ const Second = () => {
                 <div>
                   <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
-                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
+                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0 text-orange-500"/> (80)</span></p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
@@ -206,7 +211,8 @@ const Second = () => {
                 <div>
                   <div className='mt-4'>
                     <h1 className='font-semibold text-2xl p-4'>France Experience</h1>
-                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute bottom-0"/> (80)</span></p>
+                    <p className='flex w-full justify-between p-4'>10 days <span className='flex relative'>4.5 <AiTwotoneStar className="aboslute -bottom-4 text-orange-500 "/> (80)</span>
+                    </p>
                     <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi commodi a delectus itaque saepe earum molestiae, unde, nulla hic natus, illum voluptas esse quaerat iure ea iste iusto amet?</p>
                     <p className='p-4'>From <span className='font-semibold'>$1,412</span></p>
                   </div>
