@@ -6,6 +6,7 @@ import React from 'react'
 import Main from './Main'
 import Dum from './Dum'
 import Tours from './Tours'
+import Services from './Services'
 
 const First = () => {
   return (
@@ -15,6 +16,8 @@ const First = () => {
       <Dum />
       <Footer />
       <Tours />
+      <Services />
+      
     </div>
   )
 }

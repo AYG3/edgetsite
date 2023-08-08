@@ -24,7 +24,7 @@ function Tours() {
           <div className='mt-4 md:grid md:grid-flow-col md:grid-rows-3 lg:grid-rows-2'>
             {/* CARDS */}
             <div className='mt-4'>
-              <div className='flex items-center relative mx-4 justify-center sm:mx-12'>
+              <div className='flex items-center relative mx-4 justify-center sm:mx-12 md:mx-4'>
                 <Image src={IMGT1} alt="place" className='h-96 rounded-2xl object-cover object-center'/>
                 <div className='absolute border border-black px-4 py-8 m-4 w-[27rem] bg-white sm:w-96 md:w-60 xl:w-72'>
                   <p className='font-bold text-2xl'>Sydney Tour</p>
@@ -40,7 +40,7 @@ function Tours() {
             </div>
             {/* CARDS */}
             <div className='mt-4'>
-              <div className='flex items-center relative mx-4 justify-center sm:mx-12'>
+              <div className='flex items-center relative mx-4 justify-center sm:mx-12 md:mx-4'>
                 <Image src={IMGT2} alt="place" className='h-96 rounded-2xl object-cover object-center'/>
                 <div className='absolute border border-black px-4 py-8 m-4 w-[27rem] bg-white sm:w-96 md:w-60 xl:w-72'>
                   <p className='font-bold text-2xl'>Sydney Tour</p>
@@ -56,7 +56,7 @@ function Tours() {
             </div>
             {/* CARDS */}
             <div className='mt-4'>
-              <div className='flex items-center relative mx-4 justify-center sm:mx-12'>
+              <div className='flex items-center relative mx-4 justify-center sm:mx-12 md:mx-4'>
                 <Image src={IMGT3} alt="place" className='h-96 rounded-2xl object-cover object-center'/>
                 <div className='absolute border border-black px-4 py-8 m-4 w-[27rem] bg-white sm:w-96 md:w-60 xl:w-72'>
                   <p className='font-bold text-2xl'>Sydney Tour</p>
@@ -72,7 +72,7 @@ function Tours() {
             </div>
             {/* CARDS */}
             <div className='mt-4'>
-              <div className='flex items-center relative mx-4 justify-center sm:mx-12'>
+              <div className='flex items-center relative mx-4 justify-center sm:mx-12 md:mx-4'>
                 <Image src={IMGT4} alt="place" className='h-96 rounded-2xl object-cover object-center'/>
                 <div className='absolute border border-black px-4 py-8 m-4 w-[27rem] bg-white sm:w-96 md:w-60 xl:w-72'>
                   <p className='font-bold text-2xl'>Sydney Tour</p>
@@ -88,7 +88,7 @@ function Tours() {
             </div>
             {/* CARDS */}
             <div className='mt-4'>
-              <div className='flex items-center relative mx-4 justify-center sm:mx-12'>
+              <div className='flex items-center relative mx-4 justify-center sm:mx-12 md:mx-4'>
                 <Image src={IMGT1} alt="place" className='h-96 rounded-2xl object-cover object-center'/>
                 <div className='absolute border border-black px-4 py-8 m-4 w-[27rem] bg-white sm:w-96 md:w-60 xl:w-72'>
                   <p className='font-bold text-2xl'>Sydney Tour</p>
@@ -104,7 +104,7 @@ function Tours() {
             </div>
             {/* CARDS */}
             <div className='mt-4'>
-              <div className='flex items-center relative mx-4 justify-center sm:mx-12'>
+              <div className='flex items-center relative mx-4 justify-center sm:mx-12 md:mx-4'>
                 <Image src={IMGT1} alt="place" className='h-96 rounded-2xl object-cover object-center'/>
                 <div className='absolute border border-black px-4 py-8 m-4 w-[27rem] bg-white sm:w-96 md:w-60 xl:w-72'>
                   <p className='font-bold text-2xl'>Sydney Tour</p>
