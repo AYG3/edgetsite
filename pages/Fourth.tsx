@@ -21,6 +21,11 @@ const Fourth = () => {
       <div className='flex flex-col items-center justify-center mt-16'>
         <span className='text-xl text-[#f4834a]'>Team</span>
       <span className='font-bold text-3xl text-center'>Meet Our Team</span>
+      <div>
+        <div>
+          
+        </div>
+      </div>
       </div>
 
       <div className='md:grid md:grid-flow-col md:grid-rows-3 lg:grid-rows-2 md:gap-4 xl:gap-16' >
