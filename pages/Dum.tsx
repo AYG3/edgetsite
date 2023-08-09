@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import map from './assets/map.png'
+import './style.css'
 
 const Dum = () => {
   return (
@@ -29,4 +30,4 @@ const Dum = () => {
   )
 }
 
-export default Dum
+export default Dum;
