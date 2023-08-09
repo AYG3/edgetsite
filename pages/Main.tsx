@@ -13,10 +13,10 @@ const Main = () => {
           <p className='font-semibold text-4xl mb-1'>Make Tour & Explore</p>
           <p className='font-bold text-4xl mt-1'>Incredible Destinations</p>
         </div>
-        <div className='w-3/4 mt-4'>
-          <div className='rounded-full border-4 border-blue-800 grid grid-rows-1  items-center lg:flex lg:mx-8 xl:mx-28'>
+        <div className='w-3/4 mt-4 md:w-full'>
+          <div className='rounded-full border-4 border-blue-800 grid grid-rows-1 bg-whitw items-center lg:flex lg:mx-8 xl:mx-28 md:flex'>
             <div className="relative flex items-center w-full border-r">
-              <input type="text" placeholder="Keywords" className="py-2 pl-2 pr-16 rounded-l-full" />
+              <input type="text" placeholder="Keywords" className="py-2 pl-2 pr-16 rounded-l-full md:pr-5 lg:pr-12" />
               <div className="relative right-0 w-full">
                 <GoSearch className="h-6 w-6 text-gray-500 absolute right-2 top-1/2 transform -translate-y-1/2" />
               </div>
@@ -58,10 +58,10 @@ const Main = () => {
                 <li className=""><a className="rounded-b py-2 px-4   block whitespace-no-wrap" href="#">5-10</a></li>
               </ul>
             </div>
-            <div className='relative flex justify-center bg-orange-500 py-2 rounded-r-full px-12'>
+            <button className='relative flex justify-center bg-orange-500 py-2 rounded-r-full px-12 md:px-8'>
               <p className=''> Search</p>
               <TbDirectionSign className="relative -bottom-1 left-2" />
-            </div>
+            </button>
           </div>
         </div>
       </div>
