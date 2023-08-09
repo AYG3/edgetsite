@@ -8,6 +8,7 @@ import Tours from './Tours'
 import Services from './Services'
 import Utour from './Utour'
 import { TbDirectionSign } from 'react-icons/tb'
+import RecDestinations from './RecDestinations'
 
 const First = () => {
   return (
@@ -32,14 +33,7 @@ const First = () => {
             </button>
       </div>
       
-      <div className='flex flex-col items-center mt-28 p-4 bg-gray-100'>
-            <div className=' flex justify-center relative w-40'>
-            <div className='absolute left-0 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
-              <p className='text-orange-500 font-bold uppercase'> Our All</p>
-              <div className='absolute right-0 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
-            </div>
-            <p className='font-bold text-3xl'>Recommended Destinations</p>
-          </div>
+      <RecDestinations />
 
 
 
