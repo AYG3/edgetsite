@@ -22,18 +22,18 @@ function Taccessories() {
         </div>
       </div>
 
-      <div className='flex mt-8 p-4 justify-between '>
+      <div className='flex mt-8 p-4 justify-between sm:w-[40rem] mx-auto  '>
         <button className='bg-orange-500 text-white rounded-tl-xl rounded-br-xl px-6 py-2'>All</button>
         <button className='hover:bg-orange-500 hover:text-white rounded-tl-xl rounded-br-xl px-6 py-2 border border-gray-300 duration-300 hover:border-transparent'>Travel Bag</button>
         <button className='hover:bg-orange-500 hover:text-white rounded-tl-xl rounded-br-xl px-6 py-2 border border-gray-300 duration-300 hover:border-transparent'>Shoe</button>
         <button className='hover:bg-orange-500 hover:text-white rounded-tl-xl rounded-br-xl px-6 py-2 border border-gray-300 duration-300 hover:border-transparent'>Backpack</button>
       </div>
 
-      <div className='sm:grid sm:grid-flow-col sm:grid-rows-2 sm:gap-8'>
+      <div className='sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
         
 
         {/* CARD */}
-        <div className='mt-8'>
+        <div className='mt-8 sm:px-10 md:px-6  '>
             <div className='flex relative justify-center border border-gray-300 mx-4 rounded-tl-2xl rounded-br-2xl'>
                 <Image src={IMGP1} alt="product"/>
                 <div className='flex flex-col items-center mt-4 space-y-2 sm:px-4'>
@@ -49,7 +49,7 @@ function Taccessories() {
             </div>
         </div>
         {/* CARD */}
-        <div className='mt-8'>
+        <div className='mt-8 sm:px-10 md:px-6 '>
             <div className='flex relative justify-center border border-gray-300 mx-4 rounded-tl-2xl rounded-br-2xl'>
                 <Image src={IMGP1} alt="product"/>
                 <div className='flex flex-col items-center mt-4 space-y-2 sm:px-4'>
@@ -65,7 +65,7 @@ function Taccessories() {
             </div>
         </div>
         {/* CARD */}
-        <div className='mt-8'>
+        <div className='mt-8 sm:px-10 md:px-6 '>
             <div className='flex relative justify-center border border-gray-300 mx-4 rounded-tl-2xl rounded-br-2xl'>
                 <Image src={IMGP1} alt="product"/>
                 <div className='flex flex-col items-center mt-4 space-y-2 sm:px-4'>
@@ -81,7 +81,7 @@ function Taccessories() {
             </div>
         </div>
         {/* CARD */}
-        <div className='mt-8'>
+        <div className='mt-8 sm:px-10 md:px-6 lg:px-[22rem] xl:px-6  lg:col-span-3 xl:col-span-1'>
             <div className='flex relative justify-center border border-gray-300 mx-4 rounded-tl-2xl rounded-br-2xl'>
                 <Image src={IMGP1} alt="product"/>
                 <div className='flex flex-col items-center mt-4 space-y-2 sm:px-4'>
