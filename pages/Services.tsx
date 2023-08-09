@@ -10,7 +10,17 @@ import IMGS4 from './assets/service-8.png'
 function Services() {
   return (
     <div>
-    
+        
+        <div className='flex flex-col items-center mt-8 p-4'>
+            <div className=' flex justify-center relative w-36'>
+            <div className='absolute left-0 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
+                <p className='text-orange-500 font-bold '> OUR ALL</p>
+                <div className='absolute right-0 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
+            </div>
+            <p className='font-bold text-3xl'>Provided Services</p>
+        </div>
+
+
         <div className=' grid justify-center mt-2 sm:grid sm:grid-flow-col sm:grid-rows-2 lg:grid-rows-1 gap-20'>
 
             {/* CARD */}

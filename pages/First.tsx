@@ -14,10 +14,10 @@ const First = () => {
       <Navbar />
       <Main />
       <Dum />
-      <Footer />
       <Tours />
-      <Services />
-      
+      {/* <Services /> */}
+      <Footer />
+
     </div>
   )
 }
