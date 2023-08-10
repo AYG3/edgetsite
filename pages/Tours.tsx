@@ -12,14 +12,7 @@ function Tours() {
   return (
     <div>
       <div className=''>
-          <div className='flex flex-col items-center mt-8 p-4'>
-            <div className=' flex justify-center relative w-40'>
-            <div className='absolute left-0 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
-              <p className='text-orange-500 font-bold '> UPCOMING</p>
-              <div className='absolute right-0 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
-            </div>
-            <p className='font-bold text-3xl'>Best Tours</p>
-          </div>
+          
 
           <div className='mt-4 md:grid md:grid-flow-col md:grid-rows-3 lg:grid-rows-2'>
             {/* CARDS */}

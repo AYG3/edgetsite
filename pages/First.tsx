@@ -9,6 +9,7 @@ import Services from './Services'
 import Utour from './Utour'
 import { TbDirectionSign } from 'react-icons/tb'
 import RecDestinations from './RecDestinations'
+import Taccessories from './Taccessories'
 
 const First = () => {
   return (
@@ -54,6 +55,8 @@ const First = () => {
               <TbDirectionSign className="ml-2" />
             </button>
       </div>
+
+      <Taccessories />
       <Footer />
       
     </div>

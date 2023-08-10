@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-  }
 .wee{
     width: 600px;
 }
