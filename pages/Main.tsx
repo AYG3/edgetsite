@@ -1,29 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react';
+import './style.css'
 import Image from 'next/image'
 import bgg from './assets/john-doe.jpg'
 import { GoSearch } from 'react-icons/go'
 import { TbDirectionSign } from 'react-icons/tb'
-import './style.css'
-// import { useState } from 'react'
 
 const Main = () => {
-
+  
   const [destination, setDestination] = useState(false);
   
-    const destinationToggle = () => {
-      setDestination(!destination);
-    };
+  const destinationToggle = () => {
+    setDestination(!destination);
+  };
 
-    const [destination1, setDestination1] = useState(false);
-  
-    const destination1Toggle = () => {
-      setDestination1(!destination1);
-    };
+  const [destination1, setDestination1] = useState(false);
 
-    const [destination2, setDestination2] = useState(false);
-  
-    const destination2Toggle = () => {
-      setDestination2(!destination2);
+  const destination1Toggle = () => {
+    setDestination1(!destination1);
+  };
+
+  const [destination2, setDestination2] = useState(false);
+
+  const destination2Toggle = () => {
+    setDestination2(!destination2);
     };
 
 
