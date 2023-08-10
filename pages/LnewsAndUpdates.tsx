@@ -5,6 +5,7 @@ import IMGL1 from './assets/blog-1.jpg'
 import IMGL2 from './assets/blog-3.jpg'
 import IMGL3 from './assets/blog-5.jpg'
 import { BsDot } from 'react-icons/bs'
+import { TfiTimer } from 'react-icons/tfi'
 
 
 function LnewsAndUpdates() {
@@ -26,8 +27,8 @@ function LnewsAndUpdates() {
             <div className='flex flex-col items-center group mt-6 sm:w-[32rem] md:w-auto  '>
                 <div className='flex flex-col items-center relative px-4'>
                     <Image src={IMGL1} alt="" className="rounded-2xl object-cover object-center" />
-                    <div className='absolute top-6 left-9 flex justify-center py-2 rounded-3xl text-gray-200 bg-purple-900 w-40 ' >
-                        <BsDot /><p>06 Febuary, 2021</p>
+                    <div className='absolute top-6 left-9 flex justify-center py-2 rounded-3xl text-gray-200 bg-purple-900 w-44 ' >
+                        <TfiTimer className=" absolute bottom-3 left-2" /><p>06 Febuary, 2021</p>
                     </div>
                 </div>
                 <div className='p-4 '>
@@ -40,8 +41,8 @@ function LnewsAndUpdates() {
             <div className='flex flex-col items-center group mt-6 sm:w-[32rem] md:w-auto'>
                 <div className='flex flex-col items-center relative px-4'>
                     <Image src={IMGL2} alt="" className="rounded-2xl object-cover object-center" />
-                    <div className='absolute top-6 left-9 flex justify-center py-2 rounded-3xl text-gray-200 bg-purple-900 w-40 ' >
-                        <BsDot /><p>06 Febuary, 2021</p>
+                    <div className='absolute top-6 left-9 flex justify-center py-2 rounded-3xl text-gray-200 bg-purple-900 w-44 ' >
+                        <TfiTimer className=" absolute bottom-3 left-2" /><p>06 Febuary, 2021</p>
                     </div>
                 </div>
                     <div className='p-4 '>
@@ -54,8 +55,8 @@ function LnewsAndUpdates() {
             <div className='flex flex-col items-center group mt-6 sm:w-[32rem] md:w-auto md:col-span-2 lg:col-span-1' >
                 <div className='flex flex-col items-center relative px-4'>
                     <Image src={IMGL3} alt="" className="rounded-2xl object-cover object-center" />
-                    <div className='absolute top-6 left-9 flex justify-center py-2 rounded-3xl text-gray-200 bg-purple-900 w-40 ' >
-                        <BsDot /><p>06 Febuary, 2021</p>
+                    <div className='absolute top-6 left-9 flex justify-center py-2 rounded-3xl text-gray-200 bg-purple-900 w-44 ' >
+                        <TfiTimer className=" absolute bottom-3 left-2" /><p>06 Febuary, 2021</p>
                     </div>
                 </div>
                 <div className='p-4 '>
