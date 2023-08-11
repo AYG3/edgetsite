@@ -52,6 +52,7 @@ const Eight = () => {
             </div>
           </div>
         </div>
+        
       </div>
 
       <Footer />
