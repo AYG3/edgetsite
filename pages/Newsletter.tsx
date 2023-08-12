@@ -18,7 +18,6 @@ function Newsletter() {
               <button className='bg-orange-500 py-4 font-bold text-xl w-full mt-4 text-white'>Subscribe Now</button>
             </div>
           </div>
-          
         </div>
     </div>
   )

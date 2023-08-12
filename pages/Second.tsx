@@ -10,10 +10,6 @@ import { AiTwotoneStar } from 'react-icons/ai';
 import MACAU from './assets/macau-city.jpg';
 import { useState } from 'react';
 
-
-
-
-
 const data = [
   {
     img: "cd",
@@ -25,27 +21,18 @@ const data = [
 ]
 
 const Second = () => {
-
-  
-    const [destination, setDestination] = useState(false);
-  
-    const destinationToggle = () => {
-      setDestination(!destination);
-    };
-
-    const [destination1, setDestination1] = useState(false);
-  
-    const destination1Toggle = () => {
-      setDestination1(!destination1);
-    };
-
-    const [destination2, setDestination2] = useState(false);
-  
-    const destination2Toggle = () => {
-      setDestination2(!destination2);
-    };
-
-
+  const [destination, setDestination] = useState(false);
+  const destinationToggle = () => {
+    setDestination(!destination);
+  };
+  const [destination1, setDestination1] = useState(false);
+  const destination1Toggle = () => {
+    setDestination1(!destination1);
+  };
+  const [destination2, setDestination2] = useState(false);
+  const destination2Toggle = () => {
+    setDestination2(!destination2);
+  };
 
   return (
     <div>
