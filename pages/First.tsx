@@ -20,7 +20,6 @@ const First = () => {
       <Main />
       <Dum />
       <Tours />
-      
       <Services />
       <div className='flex items-center justify-center mt-6'>
             <button className='flex border justify-center items-center p-2 rounded-lg text-gray-700 hover:bg-orange-500 hover:text-white pr-6 pl-6 ease-in duration-200'>
