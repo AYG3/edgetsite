@@ -28,13 +28,7 @@ const First = () => {
               <TbDirectionSign className="ml-2" />
             </button>
       </div>
-      
       <RecDestinations />
-
-
-
-
-          
       <div className='flex flex-col items-center mt-28 p-4'>
             <div className=' flex justify-center relative w-40'>
             <div className='absolute left-0 bottom-3 bg-orange-500 w-8 h-[2px] '></div>
@@ -46,11 +40,10 @@ const First = () => {
       <Utour />
       <div className='flex items-center justify-center mt-6'>
             <button className='flex border justify-center items-center p-2 rounded-lg text-gray-700 hover:bg-orange-500 hover:text-white pr-6 pl-6 ease-in duration-200'>
-              <p className=''>All Services</p>
+              <p className=''>Upcoming Tours</p>
               <TbDirectionSign className="ml-2" />
             </button>
       </div>
-
       <Taccessories />
       <LnewsAndUpdates />
       <Newsletter />
