@@ -17,7 +17,7 @@ const First = () => {
   return (
     <div>
       <Navbar />
-      {/* <Main /> */}
+      <Main />
       <Dum />
       <Tours />
       

@@ -25,7 +25,7 @@ const Navbar = () => {
           <Image src={logo} alt={'logo'} />
         </span>
         <span className='uppercase flex text-gray-900'>
-          <button className='flex items-center mr-4'>HOME<RiArrowDropDownFill /></button>
+          <button className='flex items-center mr-4'>HOME</button>
           <button className='flex items-center mr-4'>TOURS<RiArrowDropDownFill /></button>
           <button className='flex items-center mr-4'>DESTINATION<RiArrowDropDownFill /></button>
           <button className='flex items-center mr-4'>SHOP<RiArrowDropDownFill /></button>

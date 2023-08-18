@@ -6,7 +6,7 @@ import './style.css'
 const Utour = () => {
     return (
         <div>
-            <div className='flex flex-col space-y-8 lg:grid lg:grid-cols-2 pt-12 lg:space-y-0 lg:gap-8 text-gray-700' >
+            <div className='items-center flex flex-col space-y-8 lg:grid lg:grid-cols-2 pt-12 lg:space-y-0 lg:gap-8 text-gray-700 lg:items-center md:items-center sm:items-center' >
                 {/* CARD */}
                 <div className='flex flex-col w-11/12 items-center border sm:grid sm:grid-flow-col sm:grid-cols-2 sm:cols  rounded-xl'>
                     <div className='h-full'>

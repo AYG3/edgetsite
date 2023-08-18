@@ -18,7 +18,7 @@ function Services() {
         </div>
         <p className='font-bold text-3xl'>Provided Services</p>
       </div>
-      <div className=' grid justify-center mt-2 sm:grid sm:grid-flow-col sm:grid-rows-2 lg:grid-rows-1 gap-20'>
+      <div className=' grid justify-center mt-2 sm:grid sm:grid-flow-col sm:grid-rows-2 lg:grid-rows-1 gap-20 items-center'>
         {/* CARD */}
         <div className='flex flex-col items-center mt-4 w-max group'>
           <div className=''>
