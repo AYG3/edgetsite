@@ -5,6 +5,7 @@ import { AiOutlineShoppingCart, AiFillPhone } from 'react-icons/ai'
 import { FaBars } from 'react-icons/fa'
 import logo from './assets/logo.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 const Navbar = () => {
@@ -26,7 +27,7 @@ const Navbar = () => {
         </span>
         <span className='uppercase flex text-gray-900 hidden lg:block'>
           <span className='flex'>
-          <button className='flex items-center mr-4'>HOME</button>
+          <Link href='/'><button className='flex items-center mr-4'>HOME</button></Link>
           <button className='flex items-center mr-4'>TOURS<RiArrowDropDownFill /></button>
           <button className='flex items-center mr-4'>DESTINATION<RiArrowDropDownFill /></button>
           <button className='flex items-center mr-4'>SHOP<RiArrowDropDownFill /></button>
