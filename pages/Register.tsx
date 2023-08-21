@@ -3,14 +3,14 @@ import './style.css'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-const Seventh = () => {
+const Register = () => {
   return (
     <div>
-      <Navbar />
+        <Navbar />
       <div className='bg-gray-100 items-center justify-center grid h-60'>
         <span className='font-bold text-4xl text-center'>Get Start With Us</span>
         <span className='text-2xl text-center'>
-          <a href="#">Home </a>{'\u00BB'}<span> Register</span>
+          <a href="/Home">Home </a>{'\u00BB'}<span> Register</span>
         </span>
       </div>
       <div className='grid items-center justify-center mt-16'>
@@ -28,7 +28,7 @@ const Seventh = () => {
               <button type="submit" className='bg-[#f4834a] p-2 text-white'>Register</button>
               <p className='text-center text-gray-500 m-4'>Or Register With</p>
               <p className='text-center text-gray-500 m-4'>Social Icons</p>
-              <p className='text-center text-gray-500 m-4'>Already have an account? <a className='text-gray-900' href="/Sixth">Login</a></p>
+              <p className='text-center text-gray-500 m-4'>Already have an account? <a className='text-gray-900' href="/Login">Login</a></p>
             </div>
           </form>
         </div>
@@ -38,4 +38,4 @@ const Seventh = () => {
   )
 }
 
-export default Seventh
+export default Register

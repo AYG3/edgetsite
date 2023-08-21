@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
-import './style.css'
+import React from 'react'
+import { useState } from 'react';
 import { GoSearch } from 'react-icons/go';
 import { TbDirectionSign } from 'react-icons/tb';
 import Footer from './Footer';
@@ -8,39 +8,37 @@ import Navbar from './Navbar';
 import Image from 'next/image';
 import { AiTwotoneStar } from 'react-icons/ai';
 import MACAU from './assets/macau-city.jpg';
-import { useState } from 'react';
 
-const data = [
-  {
-    img: "cd",
-    title: "France Experience",
-    days: "10 Days",
-    price: "$1,412"
-  },
-
-]
-
-const Second = () => {
-  const [destination, setDestination] = useState(false);
-  const destinationToggle = () => {
-    setDestination(!destination);
-  };
-  const [destination1, setDestination1] = useState(false);
-  const destination1Toggle = () => {
-    setDestination1(!destination1);
-  };
-  const [destination2, setDestination2] = useState(false);
-  const destination2Toggle = () => {
-    setDestination2(!destination2);
-  };
+const Destination = () => {
+    const data = [
+        {
+          img: "cd",
+          title: "France Experience",
+          days: "10 Days",
+          price: "$1,412"
+        },
+      
+      ]
+        const [destination, setDestination] = useState(false);
+        const destinationToggle = () => {
+          setDestination(!destination);
+        };
+        const [destination1, setDestination1] = useState(false);
+        const destination1Toggle = () => {
+          setDestination1(!destination1);
+        };
+        const [destination2, setDestination2] = useState(false);
+        const destination2Toggle = () => {
+          setDestination2(!destination2);
+        };
 
   return (
     <div>
-      <Navbar />
+         <Navbar />
       <div className='bg-gray-100'>
         <header className='flex flex-col items-center'>
           <h1 className=' font-extrabold text-5xl pt-16 '> Find Best Tours </h1>
-          <p className='pt-4'> Home {'>>'} Tour</p>
+          <p className='pt-4'><a href="/Home">Home</a>{' >> '}Tour</p>
         </header>
         <div className='pt-16 bg-white'>
           <div className="mx-2 w-full ">
@@ -165,7 +163,7 @@ const Second = () => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Second;
+export default Destination

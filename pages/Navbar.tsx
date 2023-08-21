@@ -23,16 +23,18 @@ const Navbar = () => {
       </header>
       <nav className='bg-white flex items-center justify-between p-2'>
         <span>
+          <Link href='/Home'>
           <Image src={logo} alt={'logo'} />
+          </Link>
         </span>
-        <span className='uppercase flex text-gray-900 hidden lg:block'>
+        <span className='uppercase text-gray-900 hidden lg:block'>
           <span className='flex'>
-          <Link href='/'><button className='flex items-center mr-4'>HOME</button></Link>
-          <button className='flex items-center mr-4'>TOURS<RiArrowDropDownFill /></button>
-          <button className='flex items-center mr-4'>DESTINATION<RiArrowDropDownFill /></button>
-          <button className='flex items-center mr-4'>SHOP<RiArrowDropDownFill /></button>
-          <button className='flex items-center mr-4'>BLOG<RiArrowDropDownFill /></button>
-          <button className='flex items-center mr-4'>PAGES<RiArrowDropDownFill /></button>
+          <Link href='/Home'><button className='flex items-center mr-4'>HOME</button></Link>
+          <Link href='/Tours'><button className='flex items-center mr-4'>TOURS</button></Link>
+          <Link href='/Destination'><button className='flex items-center mr-4'>DESTINATION</button></Link>
+          <Link href='/Shop'><button className='flex items-center mr-4'>SHOP</button></Link>
+          <Link href='/Blog'><button className='flex items-center mr-4'>BLOG</button></Link>
+          <Link href='/Pages'><button className='flex items-center mr-4'>PAGES</button></Link>
           </span>
           </span>
         <span className='flex items-center justify-center'>

@@ -1,17 +1,16 @@
-import React, { useState } from 'react';
-import './style.css';
-import Navbar from './Navbar';
+import React, { useState } from 'react'
+import './style.css'
+import Footer from './Footer';
+import Image from 'next/image';
 import IMG from './assets/single-tour-1.jpg';
 import IMG1 from './assets/avatar-1.jpg';
 import IMG2 from './assets/avatar-2.jpg';
-import Image from 'next/image';
 import { BsArrowDownShort, BsFillArrowRightSquareFill } from 'react-icons/bs';
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
-import Footer from './Footer';
+import Navbar from './Navbar';
 
-const Third = () => {
 
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const [isDropdownOpen1, setIsDropdownOpen1] = useState(false);
 
@@ -35,12 +34,14 @@ const Third = () => {
     setIsDropdownOpen2(!isDropdownOpen2);
   }
 
+
+const TourDetails = () => {
   return (
-    <div className=''>
-      <Navbar />
+    <div>
+        <Navbar />
       <header className='flex flex-col items-center bg-gray-100'>
         <h1 className=' font-bold text-3xl pt-16 '> South Island, Newzealand </h1>
-        <p className='pt-4'> Home {'>>'} Tour Details</p>
+        <p className='pt-4'><a href="/Home"></a> Home {'>>'} Tour Details</p>
       </header>
       
 
@@ -194,4 +195,4 @@ const Third = () => {
   )
 }
 
-export default Third;
+export default TourDetails

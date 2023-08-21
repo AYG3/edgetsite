@@ -1,16 +1,16 @@
 import React from 'react'
-import './style.css';
+import './style.css'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-const Nine = () => {
+const ForgotPassword = () => {
   return (
     <div>
-      <Navbar />
+        <Navbar />
       <div className='bg-gray-100 items-center justify-center grid h-60'>
         <span className='font-bold text-4xl text-center'>Forgot Password</span>
         <span className='text-2xl'>
-          <a href="#">Home </a>{'\u00BB'}<span> forgot password</span>
+          <a href="/Home">Home </a>{'\u00BB'}<span> forgot password</span>
         </span>
       </div>
       <div className='grid items-center justify-center mt-16'>
@@ -34,4 +34,4 @@ const Nine = () => {
   )
 }
 
-export default Nine
+export default ForgotPassword

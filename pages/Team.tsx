@@ -1,21 +1,21 @@
-import React from 'react';
+import React from 'react'
 import './style.css'
 import Footer from './Footer'
-// import Image from 'next/image';
+import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { BsInstagram } from 'react-icons/bs'
+import Image from 'next/image'
+import Link from 'next/link'
 import Navbar from './Navbar'
 import IMG1 from './assets/team-1.jpg'
-import Image from 'next/image';
-import { BsInstagram } from 'react-icons/bs';
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
-const Fourth = () => {
+const Team = () => {
   return (
     <div>
-      <Navbar />
+        <Navbar />
       <div className='bg-gray-100 items-center justify-center grid h-60'>
         <span className='font-bold text-4xl text-center'>Our Team</span>
         <span className='text-2xl'>
-          <a href="#">Home </a>{'\u00BB'}<span> Our Team</span>
+          <a href="/Home">Home </a>{'\u00BB'}<span> Our Team</span>
         </span>
       </div>
       <div className='flex flex-col items-center justify-center mt-16'>
@@ -38,7 +38,7 @@ const Fourth = () => {
             <div className='w-12 bg-orange-500 h-[1px] mt-3'></div>
           <div className='mt-4 flex justfiy-between text-orange-500 space-x-2'>
             <div className='p-2 shadow-xl bg-white rounded-full hover:text-white hover:bg-orange-500 duration-150 cursor-pointer'>
-              <FaTwitter />
+              <Link href="/https://twitter.com/"><FaTwitter /></Link>
             </div>
             <div className='p-2 shadow-xl bg-white rounded-full hover:text-white hover:bg-orange-500 duration-150 cursor-pointer'>
               <FaLinkedinIn />
@@ -171,16 +171,9 @@ const Fourth = () => {
           </div>  
         </div>
       </div>
-      
-
-
-
-
-
-
       <Footer />
     </div>
   )
 }
 
-export default Fourth
+export default Team

@@ -1,22 +1,21 @@
-import Footer from './Footer'
-import Navbar from './Navbar'
 import './style.css'
-import React from 'react'
-import Main from './Main'
+import Navbar from './Navbar'
 import Dum from './Dum'
+import Main from './Main'
 import Tours from './Tours'
 import Services from './Services'
-import Utour from './Utour'
 import { TbDirectionSign } from 'react-icons/tb'
 import RecDestinations from './RecDestinations'
+import Utour from './Utour'
 import Taccessories from './Taccessories'
 import LnewsAndUpdates from './LnewsAndUpdates'
 import Newsletter from './Newsletter'
+import Footer from './Footer'
 
-const First = () => {
+export default function Dashboard() {
   return (
     <div>
-      <Navbar />
+        <Navbar />
       <Main />
       <Dum />
       <Tours />
@@ -47,9 +46,6 @@ const First = () => {
       <LnewsAndUpdates />
       <Newsletter />
       <Footer />
-      
     </div>
   )
 }
-
-export default First

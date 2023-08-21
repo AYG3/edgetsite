@@ -1,7 +1,11 @@
 import React from 'react'
 import './style.css'
-import { BsPersonCircle } from 'react-icons/bs'
+import Footer from './Footer'
 import Image from 'next/image'
+import { AiFillStar } from 'react-icons/ai'
+import { BiTime } from 'react-icons/bi'
+import { BsPersonCircle } from 'react-icons/bs'
+import Navbar from './Navbar'
 import IMG1 from './assets/john-doe.jpg'
 import IMGS1 from './assets/service-5.png'
 import IMGS2 from './assets/service-6.png'
@@ -12,10 +16,6 @@ import IMGT2 from './assets/italy.jpg'
 import IMGT3 from './assets/Thailand.jpg'
 import IMGT4 from './assets/Rome.jpg'
 import IMGN from './assets/Newsletter.jpg'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import { BiTime } from 'react-icons/bi'
-import { AiFillStar } from 'react-icons/ai'
 
 
 const data = [
@@ -27,13 +27,14 @@ const data = [
 ]
 
 
-const Fifth = () => {
+const About = () => {
   return (
     <div>
+        <div>
       <Navbar />
       <header className='flex flex-col items-center bg-gray-100 py-11'>
         <h1 className=' font-extrabold text-3xl pt-16 '> About Us </h1>
-        <p className='pt-4'> Home {'>>'} About Us</p>
+        <p className='pt-4'><a href="/Home">Home</a> {' >> '}About Us</p>
       </header>
 
 
@@ -302,7 +303,9 @@ const Fifth = () => {
           
         </div>
         <Footer />
+        </div>
     </div>
   )
 }
-export default Fifth;
+
+export default About
