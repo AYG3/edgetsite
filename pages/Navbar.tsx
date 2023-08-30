@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BiUser } from 'react-icons/bi'
 import { RiArrowDropDownFill } from 'react-icons/ri'
 import { AiOutlineShoppingCart, AiFillPhone } from 'react-icons/ai'
@@ -6,9 +6,16 @@ import { FaBars } from 'react-icons/fa'
 import logo from './assets/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import Sidebar from './Sidebar'
 
 
 const Navbar = () => {
+  
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
 
   return (
     <div>
@@ -43,9 +50,15 @@ const Navbar = () => {
           <p>Contact Now</p>
           <p>+1(514)321-4567</p>
         </div>
-        <button className='flex items-center p-2 rounded bg-orange-500 text-lg h-10'><FaBars /></button>
+          <button
+            className='flex items-center p-2 rounded bg-orange-500 text-lg h-10'
+            onClick={toggleSidebar}
+          >
+            <FaBars />
+          </button>
         </span>
       </nav>
+      <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
     </div>
   )
 }

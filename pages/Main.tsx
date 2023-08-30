@@ -29,6 +29,7 @@ const Main = () => {
     };
 
 
+
   return (
     <div className="relative">
       <Image src={bgg} alt='background-img' />
