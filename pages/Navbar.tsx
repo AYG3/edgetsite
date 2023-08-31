@@ -51,7 +51,7 @@ const Navbar = () => {
           <p>Contact Now</p>
           <p>+1(514)321-4567</p>
         </div>
-        <button className='flex items-center p-2 rounded bg-orange-500 text-lg h-10'><FaBars /></button>
+        <button className='flex items-center p-2 rounded bg-orange-500 text-lg h-10' onClick={toggleSidebar}><FaBars /></button>
         </span>
       </nav>
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
